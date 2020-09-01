@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: Vujovic/bubamara-pale.com
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: novosti
+    label: Novosti
+    folder: news
+    create: true
+    fields:
+      - { name: path, label: Link }
+      - { name: image, label: Slika, widget: image }
+      - { name: date, label: Datum, widget: datetime }
+      - { name: title, label: Naslov }
+      - { name: body, label: Text, widget: markdown }
