@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `DC Bubamara Pale`,
-    description: `Kindergarten landing page`, // edit later
+    description: `Кућа среће`, // edit later
     author: `njegos.dev`,
   },
   plugins: [

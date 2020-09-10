@@ -59,6 +59,7 @@ const HeroSection = () => {
           <Img fluid={data.image1.childImageSharp.fluid} />
         </div>
       </Hero>
+      {/*
       <Hero style={{ backgroundColor: "#3A9A9F" }}>
         <div className="parents">
           <h1>Савјет родитеља</h1>
@@ -107,6 +108,7 @@ const HeroSection = () => {
           </p>
         </div>
       </Hero>
+      */}
     </>
   )
 }
