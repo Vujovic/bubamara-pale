@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Vujovic/bubamara-pale.com
+  repo: Vujovic/bubamara-pale
 
 media_folder: static/assets
 public_folder: /assets

@@ -1,24 +1,12 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import { Link } from "gatsby"
 
 import himna from "../../audio/himna.mp3"
 import House from "-!svg-react-loader!../../svg/house.svg"
+import Illustration from "-!svg-react-loader!../../svg/hero.svg"
 
 const HeroSection = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      image: file(relativePath: { eq: "hero.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 600, quality: 100) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <Hero>
       <div className="lead">
@@ -36,7 +24,7 @@ const HeroSection = () => {
         <Link to="o-nama">О нама</Link>
       </div>
       <div className="image">
-        <Img fluid={data.image.childImageSharp.fluid} />
+        <Illustration />
       </div>
     </Hero>
   )
@@ -76,12 +64,12 @@ const Hero = styled.section`
     }
   }
   .image {
-    max-width: 40vw;
-    width: 600px;
+    max-width: 45vw;
+    width: 650px;
   }
   @media screen and (max-width: 1024px) {
     .image {
-      max-width: 70vw;
+      max-width: 90vw;
     }
   }
 `
