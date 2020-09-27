@@ -14,7 +14,7 @@ const HeroSection = () => {
           Дјечији Центар <br /> Буба-Мара Пале
         </h1>
         <h2>
-          <House /> Кућа среће
+          <House /> Кућа среће - <br /> autor Тоде Николетић
         </h2>
         <audio controls>
           <source src={himna} type="audio/mpeg" />

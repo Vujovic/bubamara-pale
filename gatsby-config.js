@@ -3,10 +3,13 @@ module.exports = {
     title: `DC Bubamara Pale`,
     description: `Кућа среће`, // edit later
     author: `njegos.dev`,
+    siteUrl: "https://www.bubamara-pale.com/",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
