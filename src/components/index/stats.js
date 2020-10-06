@@ -10,7 +10,7 @@ const StatsSection = () => {
     <Stats>
       <div className="stat">
         <Teacher />
-        <p className="count">7</p>
+        <p className="count">8</p>
         <p>Учитељица</p>
       </div>
       <div className="stat middle">
