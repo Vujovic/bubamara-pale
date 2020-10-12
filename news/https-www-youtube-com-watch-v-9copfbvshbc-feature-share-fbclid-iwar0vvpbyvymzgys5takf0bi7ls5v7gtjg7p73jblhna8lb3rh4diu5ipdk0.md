@@ -2,7 +2,7 @@
 path: Посјета-предсједнице
 image: /assets/posjeta-predsjednice.jpg
 date: 2020-10-12T09:36:22.570Z
-title: https://www.youtube.com/watch?v=9COpFbvShbc&feature=share&fbclid=IwAR0VvpbYVYmzgYs5TAKF0bi7lS5V7gtJG7P73JblhNA8LB3RH4DIU5iPdK0
+title: Посјета предсједнице
 ---
 Данас је вртић Буба Мару, на наше велико задовољство, посјетила госпођа Жељка Цвијановић, предсједник Републике Српске, коју су Бубамарци обучени у народну ношњу дочекали и почастили, по старинском обичају, погачом и соли.
 
